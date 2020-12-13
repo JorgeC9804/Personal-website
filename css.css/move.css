@@ -1,0 +1,454 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon-color {
+    color: white;
+}
+
+body {
+    position: relative;
+}
+
+.size-picture {
+    width: 100%;
+    /*border-radius: 100%;*/
+    margin: auto;
+    /*background: url("../Pictures/676142343_1920x1080.jpg");*/
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.color {
+    color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+}
+
+.header-inside-1 {
+    height: 100px; 
+    /*border: 2px solid;*/
+    /*background: rgba(0, 0, 0, 0.3);*/
+    background-color: rgba(29, 175, 105, 0.774);/*#41C1C1;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.top-space-lines {
+    margin: auto;
+    width: 80%;
+    height: 600px;  
+    margin-top: 100px;  /*==============================*/
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://image.freepik.com/foto-gratis/escalera-3d-fondo-pared-amarilla_58466-5486.jpg');
+}
+
+.inside-square {
+    width: 33.33%;
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.padding-menu {
+    padding: 20px;
+}
+
+.padding-top-menu {
+    padding-top: 25px;
+}
+
+.col-12 {
+    padding: 10px;
+    width: 100%;
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.col-6 {
+    width: 50%;
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.col-4 {
+    padding: 10px;
+    width: 33.33%;
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.move-left {
+    position: relative;
+    left: 70%;
+}
+
+.move-left-icon {
+    position: relative;
+    left: 15px;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items {
+    display: flex;
+    align-items: center;
+}
+
+.center {/*De relleno*/
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    width: 33.33%;
+    /*border: 1px solid;*/
+}
+
+.border-2 {
+    width: 25%;
+    /*border: 1px solid;*/
+}
+
+.hide {
+    display: none;
+}
+
+#menu {
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.padding-column {
+    padding: 10px;
+}
+
+.color-in-column {
+    color: white;
+}
+
+.show-menu-again {
+    background-color:rgba(44, 14, 61, 0.925);
+    width: 23%;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 77%;
+    position: fixed;
+}
+
+@media (max-width: 1100px) {
+    .menu-hide-top-bar {
+        display: none;
+    }     
+
+}
+
+@media (min-width: 1100px) {
+    .show-menu-icon {
+        display: none;    
+    }
+    .space-between {
+        justify-content: space-between;
+    }
+    .show-menu {
+        display: none;   
+    }
+}
+
+@media (max-width: 800px) {
+    .top-space-lines {
+        height: 400px;
+    }
+
+    .card-show-principal-title {
+        font-size: 15px;
+    }
+
+    .show-menu-again {
+        width: 33.3%;
+        height: 250px;
+        position: relative;
+        top: 100px;
+        left: 66.6%;
+        position: fixed;
+    }
+}
+
+@media (max-width: 800px) {
+    .hide-h {
+        display: none;
+    }
+}
+
+
+
+/*==================================Icons=======================================*/
+
+@media (max-width: 800px) {
+    .wrap-icon {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+
+    .padding-icon {
+        padding: 9px;
+    }
+    
+    .container-icon {
+        background-color:rgba(0, 0, 0, 0.925);
+        width: 7%;
+        position: relative;
+        top: 100px;
+        right: 93%;
+        position: fixed;
+        color: black;
+    } 
+    
+}
+
+
+
+/*==============================Card-Principal==================================*/
+.card-move {
+    width: 75%;
+    height: 50%;
+    /*border: 2px solid black;/**/
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card-show-principal-title {
+    width: 70%;
+    height: 100px;
+    /*border: 2px solid black;/**/
+    /*background-color: white;*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    font-size: 30px;
+    /*font-family: 'Century Gothic';*/
+}
+
+.img-inside-card {
+    margin: auto;
+    margin-top: 70px;
+    width: 60%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(36, 215, 228);
+}
+
+@media (max-width: 360px) {
+    .card-show-principal-title {
+        font-size: 20px;
+    }
+}
+
+/*==============================Section-2=============================*/
+
+.section-2-container {/*father*/
+    margin: auto;
+    margin-top: 100px;
+    width: 90%;
+    /*border: 2px solid black;/**/
+    display: flex;
+    flex-direction: row;
+}
+
+.section-2-padding-container-inside-1 {/*son 1*/
+    padding: 20px;
+    /*border: 2px solid black;/**/
+    width: 50%;
+    display: flex; 
+    align-items: center;
+}
+
+.section-2-padding-container-inside-2 { /*son 2*/
+    padding: 20px;
+    /*border: 2px solid black;/**/
+    width: 50%;
+}
+
+.section-2-container-2 { /*son 1 - son 1*/
+    width: 100%;
+    /*border: 2px solid black;/**/
+}
+
+.card-section-2 { /*son 1 - son 1 - son 2*/
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 3px 3px 3px 3px rgb(19, 105, 62);
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.card-3 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 3px 3px 3px 3px rgb(91, 19, 105);
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.card-4 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 3px 3px 3px 3px rgb(145, 125, 35);
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+
+.section-2-img {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .section-2-container {/*father*/
+        margin: auto;
+        margin-top: 100px;
+        width: 90%;
+        /*border: 2px solid black;/**/
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .reverse-section-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-12-section-2 {
+        width: 100%;
+    }
+
+    .card-2 {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+}
+
+/*==============================Section-3============================*/
+
+
+.margin-top-inside {
+    margin-top: 50px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100px;
+}
+
+.inside-container{/**/
+    padding: 15px;
+    width: 33.33%;
+    /*border: 1px solid black;/**/
+}
+
+.card {
+    padding: 15px;
+    /*border: 1px solid black;/**/
+    /*box-shadow: 1px 1px black;*/
+    background-color: white;
+    height: 250px;   
+    width: 100%; 
+}
+    
+.img-card {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-card-3 {
+    height: 100%;
+    width: 70%;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1300px) {
+    .col-6 {
+        display: flex;
+        padding: 25px;
+        width: 50%;
+    }
+
+    .card {
+        padding: 15px;
+        height: 300px;   
+        width: 100%; 
+    }
+}
+
+@media (max-width: 900px) {
+    .col-12 {
+        display: flex;
+        padding: 25px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        padding: 15px;
+        height: 190px;   
+        width: 100%; 
+    }
+}
